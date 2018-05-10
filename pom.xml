@@ -43,10 +43,6 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  <properties>
-<maven.compiler.source>1.6</maven.compiler.source>
-<maven.compiler.target>1.6</maven.compiler.target>
- </properties>
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
@@ -458,5 +454,7 @@
     <coverage.complexity.minimum>0.90</coverage.complexity.minimum>
     <coverage.line.minimum>0.90</coverage.line.minimum>
     <coverage.missed.classes>0</coverage.missed.classes>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
 </project>
