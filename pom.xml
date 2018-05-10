@@ -43,6 +43,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+  <properties>
+<maven.compiler.source>1.6</maven.compiler.source>
+<maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
   <build>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
